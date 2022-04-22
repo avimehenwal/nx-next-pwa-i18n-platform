@@ -13,9 +13,4 @@
 
 ## Issues
 
-- [ ] sign tags using @jscutlery/semver
-
-Creates a signed tag by adding -s
-```
-git tag -s mytag
-```
+1. [How to sign tags using @jscutlery/semver](https://github.com/jscutlery/semver/issues/489)

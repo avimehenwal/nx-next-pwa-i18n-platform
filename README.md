@@ -8,6 +8,7 @@
   - get localized version of content from CMS
 - [ ] cypress tests
 - [ ] storybook for component library
+- [x] Automatic changelog generation for release
 
 ## Issues
 

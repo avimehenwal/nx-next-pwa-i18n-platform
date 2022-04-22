@@ -6,6 +6,7 @@
 ## CI/CD
 
 - [ ] setup up CI/CD pipeline for the project
+- [ ] semantic versioning and release
 
 ## Monorepo pattern
 

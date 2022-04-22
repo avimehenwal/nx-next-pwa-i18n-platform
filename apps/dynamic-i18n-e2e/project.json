@@ -21,6 +21,13 @@
       "options": {
         "lintFilePatterns": ["apps/dynamic-i18n-e2e/**/*.{js,ts}"]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional",
+        "commitMessageFormat": "chore(${projectName}): release version ${version}"
+      }
     }
   },
   "tags": [],

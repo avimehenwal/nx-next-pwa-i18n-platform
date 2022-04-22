@@ -7,6 +7,7 @@
 
 - [ ] setup up CI/CD pipeline for the project
 - [ ] semantic versioning and release
+- [ ] Host static storybook, component catalogue on GitHub pages
 
 ## Monorepo pattern
 

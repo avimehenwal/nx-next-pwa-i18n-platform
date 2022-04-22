@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import DesignSystem from './design-system';
+import Button from './button';
 
-describe('DesignSystem', () => {
+describe('Button', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<DesignSystem />);
+    const { baseElement } = render(<Button />);
     expect(baseElement).toBeTruthy();
   });
 });

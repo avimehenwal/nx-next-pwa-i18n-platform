@@ -1,3 +1,3 @@
 export const SITE_CONFIG = {
-  appName: 'dility',
+  appName: 'my awesome web application',
 };

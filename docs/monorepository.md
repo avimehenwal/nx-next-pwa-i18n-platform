@@ -10,3 +10,6 @@
 https://stackoverflow.com/a/47796714/1915935
 https://stackoverflow.com/questions/43281741/how-to-use-paths-in-tsconfig-json
 
+## Cheaveats
+
+- Do not remove project.json file

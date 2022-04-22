@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "dynamic-i18n": "apps/dynamic-i18n",
-    "dynamic-i18n-e2e": "apps/dynamic-i18n-e2e"
+    "dynamic-i18n-e2e": "apps/dynamic-i18n-e2e",
+    "translations": "libs/translations"
   }
 }

@@ -4,7 +4,7 @@ module.exports = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'de'],
-    localePath: path.resolve('./apps/dynamic-i18n/public/locales'),
+    localePath: path.resolve('./libs/translations/locales'),
   },
   detection: {
     caches: ['cookie'],

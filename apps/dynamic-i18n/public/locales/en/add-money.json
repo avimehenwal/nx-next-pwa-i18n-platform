@@ -1,0 +1,21 @@
+{
+  "add_money": "Add Money",
+  "add_money_to_your_wallet_by_sending_us_the_required_amount": "Add money to your wallet by sending us the required amount.",
+  "lookyda_admin_will_confirm_the_transfer_once_the_fund_is_received": "Lookyda admin will confirm the transfer once the fund is received.",
+  "bank_details": "Bank Details",
+  "bank_account_name": "Bank Account Name",
+  "bank_name": "Bank Name",
+  "account_number": "Account Number",
+  "ifsc_swift_code": "IFSC / Swift Code",
+  "bank_address": "Bank Address",
+  "iban": "IBAN",
+  "details_required": "Details Required",
+  "enter_amount_deposited": "Enter Amount Deposited",
+  "service_charge": "Service Charge",
+  "amount_would_be_added_to_wallet": "Amount Would be added to wallet",
+  "note_supported_format": "Note: supported format",
+  "upload_receipt": "Upload Receipt",
+  "amount_deposited_is_required": "Amount Deposited is required",
+  "minimum_amount_deposited_is": "Amount Deposited is {{amount}}",
+  "submit_now": "Submit Now"
+}

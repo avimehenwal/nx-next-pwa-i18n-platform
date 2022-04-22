@@ -1,0 +1,54 @@
+{
+  "root": "apps/dynamic-i18n",
+  "sourceRoot": "apps/dynamic-i18n",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "root": "apps/dynamic-i18n",
+        "outputPath": "dist/apps/dynamic-i18n"
+      },
+      "configurations": {
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/next:server",
+      "options": {
+        "buildTarget": "dynamic-i18n:build",
+        "dev": true
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "dynamic-i18n:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nrwl/next:export",
+      "options": {
+        "buildTarget": "dynamic-i18n:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/dynamic-i18n"],
+      "options": {
+        "jestConfig": "apps/dynamic-i18n/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/dynamic-i18n/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  },
+  "tags": []
+}

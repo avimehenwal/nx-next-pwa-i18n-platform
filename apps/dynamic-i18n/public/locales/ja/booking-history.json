@@ -1,0 +1,12 @@
+{
+  "my_booking_history": "My Booking History",
+  "arrival": "Arrival",
+  "filter": "Filter",
+  "up": "up ({{count}})",
+  "cmplt": "Cmplt ({{count}})",
+  "cxl": "Cxl ({{count}})",
+  "upcoming": "upcoming ({{count}})",
+  "complete": "Complete ({{count}})",
+  "cancelled": "Cancelled ({{count}})",
+  "search_by_keyword": "Search By Keyword"
+}

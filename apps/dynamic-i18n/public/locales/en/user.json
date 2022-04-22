@@ -1,0 +1,23 @@
+{
+    "old_password": "Old Password",
+    "new_password": "New Password",
+    "change_password": "Change Password",
+    "old_password_is_required": "Old Password Is Required",
+    "new_password_is_required": "New Password Is Required",
+    "my_profile": "My Profile",
+    "payment_history": "Payment History",
+    "my_booking_history": "My Booking History",
+    "logout": "Logout",
+    "connect_social_media": "Connect social media",
+    "passport_issuing_country": "Passport Issuing Country",
+    "passport_issuing_country_is_required": "Passport Issuing Country Is Required",
+    "personal_information": "Personal Information",
+    "update_profile": "Update profile",
+    "passport_details": "Passport Details",
+    "user_infomation": "User Infomation",
+    "transaction_history": "Transaction History",
+    "available_balance": "Available Balance",
+    "pending_balance": "Pending Balance",
+    "add_money": "Add Money",
+    "last_transaction_on": "Last Transaction on"
+}

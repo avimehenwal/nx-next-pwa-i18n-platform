@@ -1,0 +1,28 @@
+{
+  "root": "apps/dynamic-i18n-e2e",
+  "sourceRoot": "apps/dynamic-i18n-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/dynamic-i18n-e2e/cypress.json",
+        "devServerTarget": "dynamic-i18n:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "dynamic-i18n:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/dynamic-i18n-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["dynamic-i18n"]
+}

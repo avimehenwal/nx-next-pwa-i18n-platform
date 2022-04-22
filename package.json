@@ -8,6 +8,10 @@
     "test": "nx test",
     "prepare": "husky install"
   },
+  "engines": {
+    "npm": "8.5.0",
+    "node": "16.14.2"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.8.2",

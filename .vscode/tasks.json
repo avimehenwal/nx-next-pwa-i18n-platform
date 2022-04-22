@@ -1,0 +1,26 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "commit",
+      "type": "shell",
+      "command": "git commit --file=./COMMIT_MSG.md",
+      "problemMatcher": {
+        "owner": "git",
+        "fileLocation": ["relative", "${workspaceFolder}"],
+        "pattern": {
+          "regexp": "^The terminal process (.*) terminated with exit code: (\\d+).$",
+          "message": 1,
+          "code": 2
+        }
+      }
+    },
+    {
+      "label": "release:dryRun",
+      "type": "shell",
+      "command": "npx nx run web-platform:version --dryRun"
+    }
+  ]
+}

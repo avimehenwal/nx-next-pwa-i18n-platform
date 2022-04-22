@@ -7,7 +7,8 @@
 - [x] support Internationalization
   - get localized version of content from CMS
 - [ ] cypress tests
-- [ ] storybook for component library
+- [x] design-system / component library
+- [x] live previews using storybook
 - [x] Automatic changelog generation for release
 
 ## Issues

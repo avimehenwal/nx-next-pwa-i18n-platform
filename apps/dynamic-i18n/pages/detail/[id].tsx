@@ -1,5 +1,5 @@
 import * as React from 'react';
-import i18nConfig from '../../next-i18next-server.config';
+import i18nConfig from '../../next-i18next.config';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 

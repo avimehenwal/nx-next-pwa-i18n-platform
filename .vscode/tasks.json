@@ -21,6 +21,11 @@
       "label": "release:dryRun",
       "type": "shell",
       "command": "npx nx run web-platform:version --dryRun"
+    },
+    {
+      "label": "create-commit-msg-file",
+      "type": "shell",
+      "command": "touch COMMIT_MSG.md"
     }
   ]
 }

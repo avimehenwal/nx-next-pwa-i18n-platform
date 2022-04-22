@@ -39,6 +39,8 @@
     "@nrwl/storybook": "^14.0.1",
     "@nrwl/web": "13.10.1",
     "@nrwl/workspace": "13.10.1",
+    "@storybook/addon-essentials": "~6.4.12",
+    "@storybook/core-server": "~6.4.12",
     "@testing-library/react": "12.1.4",
     "@testing-library/react-hooks": "7.0.2",
     "@types/jest": "27.0.2",

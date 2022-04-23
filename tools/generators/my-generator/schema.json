@@ -4,14 +4,24 @@
   "$id": "my-generator",
   "type": "object",
   "properties": {
-    "name": {
+    "title": {
       "type": "string",
-      "description": "Library name",
+      "description": "The title of the blog post",
       "$default": {
         "$source": "argv",
         "index": 0
-      }
+      },
+      "x-prompt": "What's the title of your new article?"
+    },
+    "author": {
+      "type": "string",
+      "description": "The name of the author",
+      "x-prompt": "What's the name of the author?"
+    },
+    "excerpt": {
+      "type": "string",
+      "description": "An excerpt that summarizes the blog post in a single line"
     }
   },
-  "required": ["name"]
+  "required": ["title", "author"]
 }

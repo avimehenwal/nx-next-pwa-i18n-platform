@@ -1,20 +1,21 @@
 import {
-  Tree,
   formatFiles,
-  installPackagesTask,
-  logger,
   generateFiles,
   joinPathFragments,
+  logger,
+  names,
+  Tree,
 } from '@nrwl/devkit';
-import { libraryGenerator } from '@nrwl/workspace/generators';
 
-interface IGeneratorOptions {
-  name: string;
+interface NewArticleSchemaOptions {
+  title: string;
+  author: string;
+  excerpt?: string;
 }
 
-export default async function (tree: Tree, schema: IGeneratorOptions) {
+export default async function (tree: Tree, schema: NewArticleSchemaOptions) {
   logger.info(`${tree.root}`);
-  logger.info(`Hello ${schema.name} attendes!!`);
+  logger.info(`Hello ${schema.title} attendes!!`);
 
   generateFiles(
     // virtual file system
@@ -28,10 +29,11 @@ export default async function (tree: Tree, schema: IGeneratorOptions) {
 
     // the variables to be substituted in the template
     {
-      name: schema.name,
-      normalizedName: schema.name,
-      // excerpt: schema.excerpt || '',
-      // creationDate: new Date().toISOString(),
+      title: schema.title,
+      author: schema.author,
+      excerpt: schema.excerpt || '',
+      normalizedTitle: names(schema.title).fileName,
+      creationDate: new Date().toISOString(),
     }
   );
 

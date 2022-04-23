@@ -1,6 +1,6 @@
 #  nx-next-pwa-i18n-platform
 
-![demo](./docs/output.gif)
+![demo](./docs/asset/output.gif)
 ## Features
 
 - [x] Develope at scale using monorepository pattern

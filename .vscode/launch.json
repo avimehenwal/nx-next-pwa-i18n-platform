@@ -1,0 +1,18 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "nx workspace-generator",
+      "skipFiles": ["<node_internals>/**"],
+      // "program": "${workspaceFolder}/tools/generators/my-generator/index.ts",
+      "program": "node_modules/@nrwl/cli/bin/nx.js",
+      "args": ["workspace-generator", "my-generator", "from-cli"],
+      "outFiles": ["${workspaceFolder}/**/*.js"]
+    }
+  ]
+}

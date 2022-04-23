@@ -6,10 +6,14 @@ interface IGeneratorOptions {
 }
 
 export default async function (tree: Tree, schema: IGeneratorOptions) {
+  logger.info(`${tree.root}`);
   logger.info(`Hello ${schema.name} attendes!!`);
-  // await libraryGenerator(tree, { name: schema.name });
-  // await formatFiles(tree);
-  // return () => {
-  //   installPackagesTask(tree);
-  // };
+
+  // scaffolds new library with 11 NEW files and 2 Updated filesa
+  await libraryGenerator(tree, { name: schema.name });
+  await formatFiles(tree);
+  return () => {
+    // install if any new dependency is added to package.json
+    installPackagesTask(tree);
+  };
 }

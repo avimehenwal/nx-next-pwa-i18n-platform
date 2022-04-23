@@ -22,9 +22,18 @@ https://stackoverflow.com/questions/43281741/how-to-use-paths-in-tsconfig-json
 
 - developing custom generators, executors and plugins
 - Automation -> Speed & Quality
+  - Improve DX and Standardization
+- NX devkit API, AST exploration for low level stuff
+
+| concepts   | description                   |
+| ---------- | ----------------------------- |
+| Generators | generate files from templates |
+| Executors  | execute the file/script       |
 
 ### Types og NX generators
 
 1. NX core plugin generators
 2. Migration generators
 3. Workspace generators
+
+Need to pre-compile the generator before using it into any workspace or sharing = Plugins (*most value)

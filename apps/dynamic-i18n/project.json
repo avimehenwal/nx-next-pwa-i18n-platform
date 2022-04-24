@@ -57,6 +57,12 @@
         "tagPrefix": "${projectName}@",
         "commitMessageFormat": "chore(${projectName}): release version ${version}"
       }
+    },
+    "cloc": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "cloc --vcs=git --md . | tee -a ./docs/code-analysis.md"
+      }
     }
   },
   "tags": [],

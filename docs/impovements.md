@@ -9,6 +9,7 @@
 - [ ] semantic versioning and release
 - [ ] Host static storybook, component catalogue on GitHub pages
 - [ ] perform and record a code analysis report for every release
+- [ ] [add semantic versioning for the entire project](https://semantic-release.gitbook.io/semantic-release/usage/getting-started)
 
 ## Monorepo pattern
 

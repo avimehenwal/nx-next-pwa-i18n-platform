@@ -39,6 +39,15 @@
         "lintFilePatterns": ["apps/backend/**/*.ts"]
       }
     },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "baseBranch": "main",
+        "preset": "conventional",
+        "tagPrefix": "${projectName}@",
+        "commitMessageFormat": "chore(${projectName}): release version ${version}"
+      }
+    },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/apps/backend"],

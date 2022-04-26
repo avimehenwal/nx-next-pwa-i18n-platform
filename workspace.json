@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "backend": "apps/backend",
     "design-system": "libs/design-system",
     "design-system-e2e": "apps/design-system-e2e",
     "dynamic-i18n": "apps/dynamic-i18n",

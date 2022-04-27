@@ -6,6 +6,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
+    "release": "npx standard-version --sign",
+    "release:dry": "npx standard-version --sign --dry-run",
     "prepare": "husky install"
   },
   "engines": {

@@ -16,6 +16,10 @@
 - [ ] decouple the translation from the projects so that they can be used in multiple frontends
 - [ ] decouple assets into their own library so that they can be shared and reused
 
+## DAL
+
+- [ ] script seeding the database
+- [ ] Add fullstack typesafety
 ## NX
 
 - [ ] add custom generator for scaffolding PWA, i18n and COMMIT_MSG file

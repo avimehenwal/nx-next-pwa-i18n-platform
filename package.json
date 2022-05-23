@@ -9,6 +9,7 @@
     "release": "npx standard-version --sign",
     "release:dry": "npx standard-version --sign --dry-run",
     "graph": "npx nx dep-graph",
+    "clean:changelog": "find . ! \\( -path ./node_modules -prune \\) -type f -name 'CHANGELOG.md' -print -delete",
     "prepare": "husky install"
   },
   "engines": {

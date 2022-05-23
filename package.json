@@ -8,6 +8,7 @@
     "test": "nx test",
     "release": "npx standard-version --sign",
     "release:dry": "npx standard-version --sign --dry-run",
+    "graph": "npx nx dep-graph",
     "prepare": "husky install"
   },
   "engines": {
